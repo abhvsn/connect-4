@@ -1,0 +1,250 @@
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    color: #333333;
+    min-width: 90vw;
+    margin: 0 auto;
+    padding: 0 16px;
+    background: #CED2DC;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    display : flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+p.home-para {
+    font-size: 0.7em;
+    color: #949494;
+    padding-left: 65px; 
+}
+
+h1 {
+    font-size: 1em;
+}
+
+h6 {
+    margin: 5px;
+    font-size: 0.7em;
+    color: #949494;
+}
+
+h5 {
+    margin: 5px;
+    font-size: 1em;
+    color: #333333;
+}
+
+input {
+    margin: 5px;
+    font-size: 1em;
+    color: #949494;
+    font-size: 1em;
+    font-weight: bold;
+    background: transparent;
+    border: transparent;
+}
+
+textarea:focus, input:focus, button:focus{
+    outline: none;
+}
+
+hr {
+  border: transparent;
+  background :#CED2DC;  
+  height: 1.45px;
+}
+
+hr.card {
+    width: 20em;
+    margin-left: -3em;
+} 
+
+button {
+    align-items: center;
+    cursor:pointer;
+}
+
+img{
+    max-width:100%;
+    max-height:100%;
+}
+
+.row-flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.column-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    width :auto;
+    padding : 45px;
+    /* background: #3D4276; */
+    margin: 2em auto;
+    justify-content:center;
+}
+
+.home-para{
+    width:12em;
+    margin-top: -1em;
+    font-weight: bold;
+    margin-left: -20em;
+}
+
+.home-header{
+    color:#3D4276;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 0em;
+    margin-left: -10em;
+}
+
+.button-container {
+    width : fit-content;
+    padding: 3em;
+    margin: auto;
+    /* align-items: center; */
+    margin-top: -18em;
+    border-radius: 1em;
+    box-shadow: 0px 3px 10px #00000029;
+    z-index: 2;
+}
+
+.btn-style {
+    border-radius: 5px;
+    border-width: 0px;
+    box-shadow: 0px 3px 10px #00000029;
+    padding: 10px;
+    font-weight : bold;
+}
+
+.white-container {
+    width : fit-content;
+    padding: 3em;
+    margin: auto;
+    margin-bottom: 1em;
+    align-items: center;
+    border-radius: 1em;
+    box-shadow: 0px 3px 10px #00000029;
+    background: #ffffff;
+}
+
+.copywrite-container {
+    background: #EEEEEE; 
+    width:fit-content;
+    margin: auto;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+.home-buttons {
+    align-items: center;
+    justify-content: center;
+    min-width: 12em;
+    min-height: 2em;
+    border-radius: 1em;
+    border-color: transparent;
+    opacity: 1;
+    padding: 1em;
+    margin: 1em;
+    color:#ffffff;
+}
+
+.circle{
+    border-radius: 50%;
+    opacity: 0.7
+}
+
+.circle-top{
+    width: 5em;
+    height: 5em;
+    border: 1em solid #FFF7DB;
+    margin:auto;
+    margin-top: -6.5em;
+}
+.circle-right{
+    width: 6em;
+    height: 6em;
+    border: 1em solid #E6FFE9;
+    margin: -4em auto;
+    margin-right: -7em;
+}
+
+a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.home-image {
+    width: 20em;
+    z-index: 3;
+    margin-top: -3em;
+    margin-right: -15em;
+}
+
+button img{
+    width: 1.5em;
+    margin-right: 0.5em;
+}
+
+.button-text{
+    font-size: 1em;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.home-play{
+    max-width: 5em;
+    height: 5em;
+    background: #FF7243 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 50px #FF724373;
+    border-radius: 20px;
+    margin:1em;
+    margin-left: 2em;
+    align-items: center;
+    justify-content: center;
+    border-color: transparent;
+}
+
+.avatar-container{
+    width: 3em;
+    height: 3em;
+    opacity: 1;
+    border-width: 2em;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.player1{
+    border: 0.5em solid #37AC5D;
+    box-shadow: 0px 3px 7px #278D48;
+}
+
+.player2{
+    border : 0.5em solid #f8d146;
+    box-shadow: 0px 3px 7px #BB9A22;
+}
+
+.setting-card{
+    border : 0.5em solid #B1C4F9;
+}
